@@ -6,6 +6,7 @@ from django.views.decorators.csrf import csrf_protect
 from django.http import HttpResponse
 
 def index(request):
+    print("first page")
     return render(request,"index.html")
 
 def about(request):
