@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content%}
+<br>
+<br>
+<div class="container ai">
+    <h1 class="topic">
+        What is Web Development?
+    </h1>
+    <img class="aimg" style="height: 25%;width: 35%;" src="{% static 'images/webimage.jpg' %}"><br>
+<br>
+    <p class="para1">
+        Web development refers to the creating, building, and maintaining of websites. 
+        It includes aspects such as web design, web publishing, web programming, and database management. 
+        It is the creation of an application that works over the internet i.e. websites.
+    </p>
+
+    <marquee>
+        <h1 class="ap">
+            Select the projects from the given below topics:
+        </h1>
+    </marquee>
+    
+    <table>
+        <thead>
+          <tr>
+            <th>Project Idea</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Company Website</td>
+            <td>Create a website for a company to showcase its products, services, and information.</td>
+          </tr>
+          <tr>
+            <td>Cryptocurrency Live Tracker</td>
+            <td>Develop a web application to track live cryptocurrency prices, trends, and market data.</td>
+          </tr>
+          <tr>
+            <td>Restaurant Recommendations</td>
+            <td>Build a platform to recommend restaurants based on user preferences, location, and reviews.</td>
+          </tr>
+          <tr>
+            <td>E-commerce Website</td>
+            <td>Design and develop an online shopping website for buying and selling products.</td>
+          </tr>
+        </tbody>
+      </table>
+      
+
+
+
+</div>
+
+
+{% endblock %}

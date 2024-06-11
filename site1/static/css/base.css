@@ -1,0 +1,36 @@
+.social-icon{
+    color:white;
+}
+
+.soc{
+    background-color: #000000;
+}
+
+.soc:hover{
+    background-color: rgb(132, 132, 241);
+}
+
+.soc1{
+    background-color: #000000;
+    /* background-color: #5e5e5e; */
+}
+
+.copy{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.txt1{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.txt2{
+    font-weight: 100;
+}
+
+.pol{
+    font-size: 10px;
+    font-weight: 100;
+}
+
